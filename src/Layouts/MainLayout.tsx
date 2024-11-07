@@ -1,3 +1,9 @@
+import { MoviesPage } from '../Pages/MoviesPage';
+
 export const MainLayout = () => {
-  return <main>MainLayout</main>;
+  return (
+    <main>
+      <MoviesPage />
+    </main>
+  );
 };
